@@ -1,34 +1,60 @@
-h2, h5{
-    font-family: 'Lora',  Palatino, serif;
+h2, h5 {
+    font-family: 'Lora', Palatino, serif;
 
 }
-p,a{
+
+p, a {
     font-family: 'Raleway', Verdana, sans-serif;
 }
-form > label,input,small,textarea,button{
+
+.form-group {
     font-family: 'Raleway', Verdana, sans-serif;
 }
 
-.google-maps{
-    padding: 30px 0;
+.form-group input {
+    border-radius: 10px;
 }
 
-h2{
-    padding-bottom: 20px;
-    margin: 10px 0px;
+#FormControlTextarea {
+    border-radius: 10px;
 }
 
-html,body{
-    height: 100%
+.container-stuff {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #F0F7D4;
+
+}
+
+form {
+    margin: 20px;
+    width: 50%;
+    margin-bottom: 100px;
+
+}
+
+.google-map{
+    margin: 20px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+h2 {
+}
+
+main {
+    margin-bottom: 200px;
+
 }
 
 img {
     border-radius: 30px;
 }
-.card {
 
+.card {
     border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.2s;
     margin: 10px 0px 10px 0px;
     padding: 10px;
@@ -41,65 +67,52 @@ img {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     -webkit-transform: scale(1.1);
 }
 
-.navbar{
+.navbar {
     background-color: #5EA12D;
 }
 
-.navbar-nav a{
+.navbar-nav a {
     color: #F0F7D4;
 }
 
-#map {
-    width: 50%;
-    height: 400px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    -webkit-align-self: center;
-}
-
-.navbar-nav a:active,a:hover{
+.navbar-nav a:active, a:hover {
     color: #347B98;
 }
 
-div.jumbotron{
+div.jumbotron {
     background-color: #E5F2B4;
 }
 
 div.wrapper {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #092834;
     margin: 30px auto 0 auto;
-    color:#B2D732;
-}
-.btn-primary{
-    margin-bottom: 100px;
+    color: #B2D732;
 }
 
+.btn-primary {
+}
 
-div.copyright{
+div.copyright {
     margin: 30px 0 0 20px;
     color: #B2D732;
 }
 
-
-div.footer-iconic{
-    margin: 10px 30px 10px 0;
+div.footer-iconic {
     color: #B2D732;
 }
 
-.iconic-md{
-    fill:#F0F7D4;
+.iconic-md {
+    fill: #F0F7D4;
 }
 
-.iconic-md:hover{
-    fill:#B2D732;
+.iconic-md:hover {
+    fill: #B2D732;
 }
-
 
